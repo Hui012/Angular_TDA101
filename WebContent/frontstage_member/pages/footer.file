@@ -1,0 +1,51 @@
+<body class="d-flex flex-column">
+  <div id="page-content">
+
+  </div>
+  <footer id="sticky-footer" class="">
+ <div class="contain">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-2 rwd">
+                    <div class="">
+                        <span class="text-muted">WEB DEVELOPER</span>
+                    </div>
+                </div>
+
+                <div class="col col-sm-2 col-md-2 offset">
+                    <div class="back">
+                        <img src="<%=request.getContextPath()%>/img/profileCard/jumpu2.jpg" class="turn_over">
+                    </div>
+                    <div class="front">
+                        <a href="<%=request.getContextPath()%>/profilecard.jsp"><img src="<%=request.getContextPath()%>/img/profileCard/Jumpu.png"></a>
+                    </div>
+                </div>
+                <div class="col col-sm-2 col-md-2 offset">
+                    <div class="back">
+                        <img src="<%=request.getContextPath()%>/img/profileCard/IMG_4137.jpeg" class="turn_over">
+                    </div>
+                    <div class="front">
+                        <a href="<%=request.getContextPath()%>/profilecard.jsp"><img src="<%=request.getContextPath()%>/img/profileCard/IMG_6475.JPG"></a>
+                    </div>
+                </div>
+                <div class="col col-sm-2 col-md-2 offset">
+                    <div class="back">
+                        <img src="<%=request.getContextPath()%>/img/profileCard/IMG_Hui.jpg" class="turn_over">
+                    </div>
+                    <div class="front">
+                        <a href="<%=request.getContextPath()%>/profilecard.jsp"><img src="<%=request.getContextPath()%>/img/profileCard/IMG_Hui.jpg"></a>
+                    </div>
+                </div>
+                <div class="col col-sm-2 col-md-2 offset">
+                    <div class="back">
+                        <img src="<%=request.getContextPath()%>/img/profileCard/lin1.jpg" class="turn_over">
+                    </div>
+                    <div class="front">
+                        <a href="<%=request.getContextPath()%>/profilecard.jsp"><img src="<%=request.getContextPath()%>/img/profileCard/lin2.jpg"></a>
+                    </div>
+                </div>
+                
+                
+            </div>
+    </div>
+  </footer>
+</body>
